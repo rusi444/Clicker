@@ -1,0 +1,56 @@
+:root {
+  /* --variable: value; */
+}
+
+*   ,
+    *::after,
+    *::before {
+    margin: 0;
+    padding: 0;
+    box-sizing: inherit;
+}
+
+html {
+
+    box-sizing: border-box;
+    font-size: 62.5%;
+}
+
+body {
+	line-height: 1.6;
+}
+
+.counter__current {
+    font-size: 2rem;
+}
+
+.counter__persec {
+    font-size: 4rem;
+}
+
+
+.playerea {
+    height: 50dvh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+#container {
+    max-height: 100dvh;
+    max-width: 100dvw;
+    height: 100dvh;
+    width: 100dvw;
+    overflow: hidden;
+}
+
+.playerea__clicker {
+    height: 50%;
+}
+
+.powerup {
+    text-align: center;
+    font-size: 18px;
+}
